@@ -1,6 +1,9 @@
 class UsersController < ApplicationController
+
+  def index
+  end
   def show
     @time = Time.now
-    @hello = "Привет!"
+    @hello = "Current time:"
   end
 end
