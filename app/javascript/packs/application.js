@@ -11,3 +11,9 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+$(function(){
+  $('#ask-button').click(function(){
+    $('#ask-form').slideToggle(300);
+    return false;
+  });
+});
